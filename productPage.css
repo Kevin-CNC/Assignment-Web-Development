@@ -1,0 +1,102 @@
+
+.bookSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 100px 0 50px 0; /* Increased top margin */
+}
+
+.imageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#bookImage {
+    width: 25em !important;
+    height: 25em !important;
+    object-fit: cover;
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left-arrow { left: 10px; }
+.right-arrow { right: 10px; }
+
+.detailSection {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+#shortDescription{
+    font-style: italic;
+}
+
+#purchaseButton {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.reviews{
+    margin-top: 12em;
+    text-align: center;
+}
+
+.cardsSection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: .1s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    transition: .1s ease-in-out;
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+}
