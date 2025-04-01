@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Audio Books</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="loyaltypage.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+
+    <script src="loyaltyprocess.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="promotions&events.html">Events & Promotions</a></li>
+                <li><a href="loyalty-prog.html">Loyalty Program</a></li>
+            </ul>
+        </nav>
+
+        <section id="titleSection">
+            <a href="index.html" id="mainTitle"><h1><span>Online Audio Books</span></h1></a>
+        </section>
+    </header>
+
+    <main>
+        <section id="banner">
+            <section id="overlay"></section>
+            <section id="banner-content">
+                <h1>BECOME A LOYAL CUSTOMER!</h1>
+                <p>Downloading from us a lot? Interested in our events? Maybe even both?<br>To access our <i>exclusive deals</i> or be notified directly about <i>our future events</i> become a loyal member!</p>
+            </section>      
+        </section>
+
+        <section id="formSection">
+            <form id="loyaltyForm">
+                <section class="formRow">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </section>
+                <section class="formRow">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </section>
+                <section class="formRow">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </section>
+                <section class="formRow">
+                    <label for="acceptTOS">Accept our: <a href="tos.html">TOS</a></label>
+                    <input type="checkbox" id="acceptTOS" name="acceptTOS" required>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Online Audio Books. All rights reserved.</p>
+    </footer>
+</body>
+</html>
