@@ -30,6 +30,16 @@ form {
     max-width: 400px;
 }
 
+#standardLabel{
+    transition: .15s ease-in-out;
+    color: black;
+}
+
+#errorLabel{
+    transition: .15s ease-in-out;
+    color: red;
+}
+
 input {
     padding: 10px;
     border: 1px solid #ccc;
@@ -42,7 +52,6 @@ input:focus {
     box-shadow: 0 0 5px rgba(72, 147, 208, 0.5);
     outline: none;
 }
-
 
 button {
     padding: 10px 20px;
@@ -123,6 +132,6 @@ button:hover {
 
 @media (max-width: 900px) {
     #banner-content p, h1{
-        font-size: 85%;
+        font-size: 75%;
     }
 }

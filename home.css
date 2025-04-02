@@ -29,7 +29,7 @@ main {
     color: #666;
 }
 
-#reasonsWhySection{
+#reasonsWhySection, #dailyNewsSection{
     width: 100%;
     background-color: #66666615;
     padding-top: 1.1em;
@@ -38,9 +38,10 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     transition: 1s ease-in-out;
+    margin-bottom: 1em;
 }
 
-#reasonsWhySection:hover{
+#reasonsWhySection:hover, #dailyNewsSection:hover{
     transform: scale(1.025);
     transition: .15s ease-in-out;
 }
@@ -54,6 +55,14 @@ main {
     color: #333;
     justify-self: left;
     margin-bottom: 25px;
+}
+
+#news li{
+    margin-bottom: 5em;
+}
+#news li p{
+    font-style: italic;
+    color: #858585;
 }
 
 #banner {
