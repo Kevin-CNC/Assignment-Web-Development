@@ -3,6 +3,18 @@ main {
     padding: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: #4893d0;
+    transition: .25s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #c219d2;
+    transition: .25s ease-in-out;
+}
+
 #introduction{
     padding-top: 5em;
     padding-bottom: 5em;
